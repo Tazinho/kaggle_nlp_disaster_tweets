@@ -21,8 +21,8 @@ params = list(
   eta=0.001,
   max_depth=5,
   gamma=3,
-  subsample=0.75,
-  colsample_bytree=1
+  subsample=0.70,
+  colsample_bytree=0.4
 )
 
 mod_cv <- xgboost::xgb.cv(params = params,
